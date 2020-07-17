@@ -1,18 +1,16 @@
 function feetToMile(feet) {
-    if (feet < 0) {
-        return 'distance cannot be negative.';
+    if (feet <= 0) {
+        return 'distance cannot be negative or zero.';
     } else {
         var oneFeetToMile = 1 / 5280;
         var resultMile = feet * oneFeetToMile;
         return resultMile;
     }
-
 }
 
-
 function woodCalculator(chair, table, bed) {
-    if (chair < 0 || table < 0 || bed < 0) {
-        return 'chair, table or bed number cannot be negative.';
+    if (chair <= 0 || table <= 0 || bed <= 0) {
+        return 'chair, table or bed number cannot be negative or zero.';
     } else {
         var totalChairWood = chair * 1;
         var totalTableWood = table * 3;
@@ -22,10 +20,9 @@ function woodCalculator(chair, table, bed) {
     }
 }
 
-
 function brickCalculator(floor) {
-    if (floor < 0) {
-        return 'Your input cannot be negative.';
+    if (floor <= 0) {
+        return 'Your input cannot be negative or zero.';
     } else {
         var totalFeet = 0;
         if (floor < 11) {
@@ -42,7 +39,6 @@ function brickCalculator(floor) {
         return totalBrick;
     }
 }
-
 
 function tinyFriends(nameList) {
     var uniqueNameList = [];
