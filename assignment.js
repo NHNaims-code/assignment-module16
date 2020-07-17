@@ -63,3 +63,7 @@ function tinyFriends(nameList) {
     var tinyName = uniqueNameList[tinyNameIndex];
     return tinyName;
 }
+
+
+
+console.log(tinyFriends(['habi', 'jabi', 'kol  ', ' ']));
