@@ -41,7 +41,7 @@ function brickCalculator(floor) {
     }
 }
 
-function tinyFriends(nameList) {
+function tinyFriend(nameList) {
     var uniqueNameList = [];
     for (var i = 0; i < nameList.length; i++) {
         if (nameList[i] != ' ') {
