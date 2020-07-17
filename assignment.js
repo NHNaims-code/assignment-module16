@@ -9,8 +9,8 @@ function feetToMile(feet) {
 }
 
 function woodCalculator(chair, table, bed) {
-    if (chair <= 0 || table <= 0 || bed <= 0) {
-        return 'chair, table or bed number cannot be negative or zero.';
+    if (chair < 0 || table < 0 || bed < 0) {
+        return 'chair, table or bed number cannot be negative.';
     } else {
         var totalChairWood = chair * 1;
         var totalTableWood = table * 3;
