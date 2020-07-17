@@ -1,3 +1,4 @@
+
 function feetToMile(feet) {
     if (feet <= 0) {
         return 'distance cannot be negative or zero.';
@@ -66,4 +67,3 @@ function tinyFriends(nameList) {
 
 
 
-console.log(tinyFriends(['habi', 'jabi', 'kol  ', ' ']));
